@@ -3,7 +3,7 @@
 --------------
 
 The :mod:`imghdr2` module determines the type of image contained in a file or
-byte stream. It was originally `imghdr` in the Python standard library, but is now
+byte stream. It was originally ``imghdr`` in the Python standard library, but is now
 deprecated. This module is a drop-in replacement for the original, with the same API.
 
 The :mod:`imghdr2` module defines the following function:
@@ -50,7 +50,7 @@ from :func:`what`:
 
 
 You can extend the list of file types :mod:`imghdr2` can recognize by appending
-to `tests`. It is a list of functions performing the individual tests.  Each function takes two
+to ``tests``. It is a list of functions performing the individual tests.  Each function takes two
 arguments: the byte-stream and an open file-like object. When :func:`what` is
 called with a byte-stream, the file-like object will be ``None``.
 The test function should return a string describing the image type if the test
