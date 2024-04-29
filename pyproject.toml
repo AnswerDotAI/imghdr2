@@ -1,0 +1,30 @@
+[project]
+name = "imghdr2"
+version = "3.11"
+description = "A lightweight Python library for determining the type of image files, as a separate module due to official deprecation."
+readme = "README.md"
+requires-python = ">=3.6"
+license = {file = "LICENSE"}
+authors = [ {name = "Python core team, packaged by Jeremy Howard", email = "info@fast.ai"} ]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Python Software Foundation License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Multimedia :: Graphics"
+]
+keywords = ["image", "type", "detection", "imghdr2", "imghdr"]
+
+[project.urls]
+Homepage = "https://github.com/answerdotai/imghdr2"
+"Bug Tracker" = "https://github.com/answerdotai/imghdr2/issues"
+"Source Code" = "https://github.com/answerdotai/imghdr2"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["imghdr2"]
+
