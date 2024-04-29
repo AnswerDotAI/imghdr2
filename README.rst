@@ -6,6 +6,8 @@ The :mod:`imghdr2` module determines the type of image contained in a file or
 byte stream. It was originally ``imghdr`` in the Python standard library, but is now
 deprecated. This module is a drop-in replacement for the original, with the same API.
 
+Install with ``pip install imghdr2``.
+
 The :mod:`imghdr2` module defines the following function:
 
 
